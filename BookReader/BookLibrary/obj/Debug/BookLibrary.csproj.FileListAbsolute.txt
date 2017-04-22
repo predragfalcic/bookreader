@@ -1,0 +1,8 @@
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookLibrary\bin\Debug\BookLibrary.dll
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookLibrary\bin\Debug\BookLibrary.pdb
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookLibrary\obj\Debug\BookLibrary.dll
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookLibrary\obj\Debug\BookLibrary.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookLibrary\bin\Debug\BookLibrary.dll
+C:\Users\pedja\Desktop\BookReader\BookReader\BookLibrary\bin\Debug\BookLibrary.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookLibrary\obj\Debug\BookLibrary.dll
+C:\Users\pedja\Desktop\BookReader\BookReader\BookLibrary\obj\Debug\BookLibrary.pdb

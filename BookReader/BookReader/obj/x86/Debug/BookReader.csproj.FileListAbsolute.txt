@@ -1,0 +1,46 @@
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\MainWindow.baml
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\App.g.cs
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader_MarkupCompile.cache
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader.g.resources
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader.Properties.Resources.resources
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader.csproj.GenerateResource.Cache
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\bin\Debug\BookReader.exe
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\bin\Debug\BookReader.pdb
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\bin\Debug\BookLibrary.dll
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\bin\Debug\BookLibrary.pdb
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader.csprojResolveAssemblyReference.cache
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader.exe
+C:\Users\Falca\Documents\Visual Studio 2010\Projects\BookReader\BookReader\obj\x86\Debug\BookReader.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\bin\Debug\BookReader.exe
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\bin\Debug\BookReader.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\bin\Debug\BookLibrary.dll
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\bin\Debug\BookLibrary.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.csprojResolveAssemblyReference.cache
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\HelpWindow.baml
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\MainWindow.baml
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\HelpWindow.g.cs
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\MainWindow.g.cs
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\App.g.cs
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader_MarkupCompile.cache
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.g.resources
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.Properties.Resources.resources
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.csproj.GenerateResource.Cache
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.exe
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.exe
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\bin\Debug\BookReader.exe
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\bin\Debug\BookReader.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\bin\Debug\BookLibrary.dll
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\bin\Debug\BookLibrary.pdb
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.csprojResolveAssemblyReference.cache
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\HelpWindow.baml
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\MainWindow.baml
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\HelpWindow.g.cs
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\MainWindow.g.cs
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\App.g.cs
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader_MarkupCompile.cache
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.g.resources
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.Properties.Resources.resources
+C:\Users\pedja\Desktop\BookReader\BookReader\BookReader\BookReader\obj\x86\Debug\BookReader.csproj.GenerateResource.Cache

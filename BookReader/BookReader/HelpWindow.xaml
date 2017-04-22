@@ -1,0 +1,120 @@
+﻿<Window x:Class="BookReader.HelpWindow" ResizeMode="NoResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pomoc" Icon="images/help.png" Height="600" Width="Auto" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignWidth="1121" SizeToContent="WidthAndHeight">
+    <Grid Height="600">
+        <ScrollViewer>
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock FontSize="42" Grid.Column="0" Grid.Row="0" TextAlignment="Center">Book Reader Strana za Pomoc</TextBlock>
+            <TextBlock FontSize="22" Grid.Column="0" Grid.Row="1" TextAlignment="Center">U narednom delu teksta nacicete informacije za lakse rukovanje aplikacijom. <LineBreak>
+            </LineBreak><LineBreak></LineBreak>
+                Mocicete da procitate kako da koristite sledece funkcionalnosti: <LineBreak></LineBreak><LineBreak></LineBreak>
+                <TextBlock FontSize="18" TextAlignment="Left">
+                        1. Otvaranje nove knjige<LineBreak></LineBreak>
+                        2. Cemu sluzi opcija Ceo Ekran kao i opcija Normalan Ekran<LineBreak></LineBreak>
+                        3. Sta se cuva u listi sa leve stranje prozora<LineBreak></LineBreak>
+                        4. Kako se koriste dva rezima rada, nocni i dnevni<LineBreak></LineBreak>
+                        5. Kako se menja font, velicina, stajling i boja teksta<LineBreak></LineBreak>
+                        6. Kako se menja boja pozadine teksta<LineBreak></LineBreak>
+                        7. Zumiranje i pretraga teksta<LineBreak></LineBreak>
+                        8. Dodavanje anotacija (beleski i obelezavanje teksta) u tekst<LineBreak></LineBreak>
+                        9. Brisanje knjiga iz liste<LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="2">1. Otvaranje nove knjige
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Otvanje nove knjige se vrsi pomocu opcije Nova Knjiga. Pritiskom na dugme otvorice vam se dijalog pomocu kog ce te se kretati <LineBreak></LineBreak>
+                    kroz foldere u vasem racunaru dok ne pronadjete knjigu koju zelite da otvorite. Kada je pronadjete duplim levim klikom na nju ona ce se otvoriti u <LineBreak></LineBreak>
+                    aplikaciji.<LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="3">2. Cemu sluzi opcija Ceo Ekran kao i opcija Normalan Ekran
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Opcija Ceo Ekran vam omogucava da knjigu prikazete preko cele povrsine vaseg ekrana. Pritiskom na to dugme lista sa leve strane ekrana i <LineBreak></LineBreak>
+                    opcije sa desne strane ce se povuci i omoguciti vam lakse citanje vase omiljene knjige. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="4">3. Sta se cuva u listi sa leve stranje prozora
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    U listi sa leve strane prozora su prikazane vase knjige koje ste otvorili i prikazan je procenat procitanosti svake knjige. <LineBreak></LineBreak>
+                    Iz date liste mozete otvarati knjige ili brisati ih.<LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="5">4. Kako se koriste dva rezima rada, nocni i dnevni
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Postoje dva rezima rada, Nocni i dnevni. Svaki od njih je kreiran tako da vam omoguci citanje knjige u odredjeno doba dana. <LineBreak></LineBreak>
+                    Prilikom nocnog citanja pozadina knjige postaje crna a slova svetlija, dok kod dnevnog pozadina postaje svetlija a slova crna. <LineBreak></LineBreak>
+                    Iz jednog rezima rada prelazite u drugi jednostavnim klikom na dugme, koje se nalazi sa desne strane prozora, dugme Dnevni/Nocni Rezim Rada. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="6">5. Kako se menja font, velicina, stajling i boja teksta
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Sa desne stranje prozora nalazi se dugme Font. Pritiskom na to dugme otvorice vam se dijalog u kom mozete da podesite velicinu fonta, <LineBreak></LineBreak>
+                    Stajling fonta, da li je font bold ili normal i mozete da menjate boju slova kako bi ste citanje prilagodili sto bolje vasim potrebama. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="7">6. Kako se menja boja pozadine teksta
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Boja pozadine teksta se menja pritiskom na dugme sa desne strane Boja Pozadine. Pritiskom na njega otvorice vam se dijalog u kom ce te moci da izaberete jednu <LineBreak></LineBreak>
+                    od osnovnih boja ili ukoliko zelite mocicete da kreirate neku vasu boju koja vam najvise odgovara. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="8">7. Zumiranje i pretraga teksta
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Zumiranje je moguce pomocu skale koja se nalazi u donjem desnom cosku knjige. Pomeranjem drzaca levo ili desno mozete da zumirate ili odzumirate tekst u knjizi. <LineBreak></LineBreak>
+                    Nivo zumiranja nece biti upamcen prilikom zatvaranja knjige. <LineBreak></LineBreak>
+                    Pretrazivanje teksta knjige je moguce pomocu tekstualnog polja u levom donjem cosku knjige, koji se pojavljuje tek nakon sto je knjiga ucitana. <LineBreak></LineBreak>
+                    Pretraga se vrsi tako sto unesete rec koju zelite, pa zatim pritiskom na levu i desnu strelicu setate od reci do reci, ukoliko je neka pronadjena. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="9">8. Dodavanje anotacija (beleski i obelezavanje teksta) u teksts
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    U tekst je moguce dodati tekstualne beleske kako bi ste se lakse podsetili nekih detalja iz knjige. To mozete uraditi tako sto selektujete deo teksta gde zelite <LineBreak></LineBreak>
+                    da dodate belesku, a zatim pritisnete na dugme sa desne strane Kreiraj Belesku. Nakon toga mozete dodati zeljeni tekst u kreiranoj belesci. Pritiskom na dugme ispod pomenutog <LineBreak></LineBreak>
+                    uklanjate selektovanu belesku. Obelezavanje teksta zutom bojom se vrsti na slican nacin, selektujete deo teksta i pritisnete na dugme sa desne strane prozora Obelezi Tekst. <LineBreak></LineBreak>
+                    Tekst ce zatim postati obelezen zutom bojom. Uklanjanje zute boje sa teksta, se vrsi tako sto selektujete obelezen tekst i pritisnite na dugme ispod pomenutog. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+            <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="10">9. Brisanje knjiga iz liste
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    Brisanje knjiga iz liste je veoma prosto. Iz liste sa leve stranje izaberete knjigu koju zelite da obrisete i pritisnete desni klik na nju. Videcete opciju Obrisi Knjigu, <LineBreak></LineBreak>
+                    pa pritiskom da tu opciju knjiga ce biti obrisana. Zajedno sa knjigom bice obrisane i sve anotacije koje ste dodali u knjigu.<LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+
+            <TextBlock TextAlignment="Left" FontSize="18" Grid.Column="0" Grid.Row="11">SKRACENICE
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="16" TextAlignment="Left">
+                    U gornjem delu ekrana se nalaze opcije kojima mozete pristupiti pritiskom na taster Alt, na tastaturi, pa onda priskom na slovo koje je podvuceno. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+        </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>
