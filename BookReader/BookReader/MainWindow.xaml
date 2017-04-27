@@ -72,6 +72,28 @@
                         </StackPanel>
                     </MenuItem.ToolTip>
                 </MenuItem>
+                <MenuItem x:Name="Print" Header="_Stampaj" Click="Print_Click">
+                    <MenuItem.Icon>
+                        <Image Width="20" Height="20">
+                            <Image.Source>
+                                <BitmapImage UriSource="images/print.jpg" />
+                            </Image.Source>
+                        </Image>
+                    </MenuItem.Icon>
+                    <MenuItem.ToolTip>
+                        <StackPanel>
+                            <TextBlock FontWeight="Bold" FontSize="14" Margin="0,0,0,5">Stampaj dokument</TextBlock>
+                            <TextBlock>
+                                Stampanje dokumenta.
+                            </TextBlock>
+                            <Border BorderBrush="Silver" BorderThickness="0,1,0,0" Margin="0,8" />
+                            <WrapPanel>
+                                <Image Width="15" Height="15" Source="images/help.png" Margin="0,0,5,0" />
+                                <TextBlock FontStyle="Italic">Pritisnite F11 za dodatnu pomoc</TextBlock>
+                            </WrapPanel>
+                        </StackPanel>
+                    </MenuItem.ToolTip>
+                </MenuItem>
                 <MenuItem InputGestureText="F11" x:Name="Help" Header="_Pomoc" Click="Help_Click">
                     <MenuItem.Icon>
                         <Image Width="20" Height="20">

@@ -21,7 +21,8 @@
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
-            </Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
             <TextBlock FontSize="42" Grid.Column="0" Grid.Row="0" TextAlignment="Center">Book Reader Strana za Pomoc</TextBlock>
             <TextBlock FontSize="22" Grid.Column="0" Grid.Row="1" TextAlignment="Center">U narednom delu teksta nacicete informacije za lakse rukovanje aplikacijom. <LineBreak>
             </LineBreak><LineBreak></LineBreak>
@@ -36,6 +37,7 @@
                         7. Zumiranje i pretraga teksta<LineBreak></LineBreak>
                         8. Dodavanje anotacija (beleski i obelezavanje teksta) u tekst<LineBreak></LineBreak>
                         9. Brisanje knjiga iz liste<LineBreak></LineBreak>
+                        10. Stampanje dokumenta<LineBreak></LineBreak>
                 </TextBlock>
             </TextBlock>
             <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="2">1. Otvaranje nove knjige
@@ -107,14 +109,21 @@
                     pa pritiskom da tu opciju knjiga ce biti obrisana. Zajedno sa knjigom bice obrisane i sve anotacije koje ste dodali u knjigu.<LineBreak></LineBreak>
                 </TextBlock>
             </TextBlock>
-
-            <TextBlock TextAlignment="Left" FontSize="18" Grid.Column="0" Grid.Row="11">SKRACENICE
+                <TextBlock TextAlignment="Left" FontSize="16" Grid.Column="0" Grid.Row="11">10. Stampaj dokument
+                <LineBreak></LineBreak>
+                <TextBlock FontSize="14" TextAlignment="Left">
+                    U gornjem delu prozora, nazali se dugme Stampaj. Pritiskom na to dugme pojavice vam se prozor koji ce vam omoguciti da izaberete dodatne opcije za stampanje vaseg dokumenta. <LineBreak></LineBreak>
+                    Kada zavrsite sa podesavanje pritisnite na dugme Print i proces ce se pokrenuti. <LineBreak></LineBreak>
+                </TextBlock>
+            </TextBlock>
+                <TextBlock TextAlignment="Left" FontSize="18" Grid.Column="0" Grid.Row="12">SKRACENICE
                 <LineBreak></LineBreak>
                 <TextBlock FontSize="16" TextAlignment="Left">
                     U gornjem delu ekrana se nalaze opcije kojima mozete pristupiti pritiskom na taster Alt, na tastaturi, pa onda priskom na slovo koje je podvuceno. <LineBreak></LineBreak>
                 </TextBlock>
             </TextBlock>
-        </Grid>
+            
+            </Grid>
         </ScrollViewer>
     </Grid>
 </Window>

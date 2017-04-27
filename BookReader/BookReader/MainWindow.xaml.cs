@@ -246,8 +246,7 @@ namespace BookReader
             paragraph.Inlines.Add(text);
 
             document = new FlowDocument(paragraph);
-            document.PagePadding = new Thickness(50);
-            document.ColumnGap = 0;
+            // document.ColumnGap = 0;
             document.ColumnWidth = 2000;
             document.TextAlignment = TextAlignment.Center;
             document.Background = currBg;
@@ -502,6 +501,7 @@ namespace BookReader
             }
             leftPanel.Visibility = System.Windows.Visibility.Collapsed;
             rightPanel.Visibility = System.Windows.Visibility.Collapsed;
+            document.PagePadding = new Thickness(300);
         }
 
         private void Help_Click(object sender, RoutedEventArgs e)
@@ -526,6 +526,26 @@ namespace BookReader
                 CloseAnnotations();
                 File.Delete(annotationFileName);
                 document.Blocks.Clear();
+            }
+        }
+
+        private void Print_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Controls.PrintDialog printDialog = new System.Windows.Controls.PrintDialog();
+            if (printDialog.ShowDialog() == true)
+            {
+                document.PageHeight = printDialog.PrintableAreaHeight;
+                document.PageWidth = printDialog.PrintableAreaWidth;
+
+                // Set margin to 1 inch
+                document.PagePadding = new Thickness(96);
+
+                // Get the FlowDocument's DocumentPaginator
+                var paginatorSource = (IDocumentPaginatorSource)document;
+                var paginator = paginatorSource.DocumentPaginator;
+
+                // Print the Document
+                printDialog.PrintDocument(paginator, "FS NoteMaster Document");
             }
         }
     }
