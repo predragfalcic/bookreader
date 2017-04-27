@@ -8,7 +8,7 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem x:Name="OpenFile" Header="_Nova Knjiga" Click="OpenFile_Click">
                     <MenuItem.Icon>
-                        <Image>
+                        <Image Width="20" Height="20">
                             <Image.Source>
                                 <BitmapImage UriSource="images/openbook.jpg" />
                             </Image.Source>
@@ -30,7 +30,7 @@
                 </MenuItem>
                 <MenuItem x:Name="FullScreenMode" Header="_Ceo Ekran" Click="FullScreenMode_Click">
                     <MenuItem.Icon>
-                        <Image>
+                        <Image Width="20" Height="20">
                             <Image.Source>
                                 <BitmapImage UriSource="images/fullscreen.jpg" />
                             </Image.Source>
@@ -52,7 +52,7 @@
                 </MenuItem>
                 <MenuItem x:Name="NormalScreenMode" Header="_Normalan Ekran" Click="NormalScreenMode_Click">
                     <MenuItem.Icon>
-                        <Image>
+                        <Image Width="20" Height="20">
                             <Image.Source>
                                 <BitmapImage UriSource="images/minimizescreen.png" />
                             </Image.Source>
@@ -74,7 +74,7 @@
                 </MenuItem>
                 <MenuItem InputGestureText="F11" x:Name="Help" Header="_Pomoc" Click="Help_Click">
                     <MenuItem.Icon>
-                        <Image>
+                        <Image Width="20" Height="20">
                             <Image.Source>
                                 <BitmapImage UriSource="images/help.png" />
                             </Image.Source>
@@ -101,7 +101,7 @@
                         <ContextMenu>
                             <MenuItem Header="Obrisi Knjigu" Click="MenuItemDelete_Click">
                                 <MenuItem.Icon>
-                                    <Image>
+                                    <Image Width="20" Height="20">
                                         <Image.Source>
                                             <BitmapImage UriSource="images/delete.jpg" />
                                         </Image.Source>

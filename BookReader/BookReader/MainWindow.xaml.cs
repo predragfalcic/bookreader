@@ -389,7 +389,10 @@ namespace BookReader
         private void NormalScreenMode_Click(object sender, RoutedEventArgs e)
         {
             WindowState = System.Windows.WindowState.Normal;
-            book.isMaximizedWindow = false;
+            if (book != null)
+            {
+                book.isMaximizedWindow = false;
+            }
             rightPanel.Visibility = System.Windows.Visibility.Visible;
             leftPanel.Visibility = System.Windows.Visibility.Visible;
             System.Windows.Application.Current.MainWindow.Width = 900;
