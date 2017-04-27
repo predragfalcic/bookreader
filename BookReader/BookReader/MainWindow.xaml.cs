@@ -501,7 +501,6 @@ namespace BookReader
             }
             leftPanel.Visibility = System.Windows.Visibility.Collapsed;
             rightPanel.Visibility = System.Windows.Visibility.Collapsed;
-            document.PagePadding = new Thickness(300);
         }
 
         private void Help_Click(object sender, RoutedEventArgs e)
